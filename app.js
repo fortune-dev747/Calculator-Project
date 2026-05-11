@@ -1,22 +1,27 @@
+// CALCULATOR PROGRAM
 const display = document.getElementById("display");
-const popup = document.getElementById('myModal');
+
 
 function appendToDisplay(input) {
     display.value += input;
 }
 
 function clearDisplay() {
-    display.value = "";
+    display.value = '';
 }
 
 function calculate() {
     try {
         display.value = eval(display.value);
-    } catch (error) {
+    } 
+    catch (error) {
         display.value = "SYNTAX ERROR";
     }
 }
 
+
+// MODAL POPUP
+const popup = document.getElementById('myModal');
 function openPopup() {
         popup.style.display = "block";
 };
