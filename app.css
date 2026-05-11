@@ -76,3 +76,10 @@ button:hover {
 .operationBtn:hover {
     background-color: darkorange;
 }
+
+.footer {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: blueviolet;
+}
