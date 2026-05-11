@@ -70,16 +70,16 @@ button:hover {
 }
 
 .operationBtn {
-    background-color: orange;
+    background-color: hsl(35, 100%, 55%);
     color: #fff;
 }
 .operationBtn:hover {
-    background-color: darkorange;
+    background-color: hsl(35, 100%, 65%);
 }
 
 .footer {
     margin-top: 20px;
     text-align: center;
     font-size: 14px;
-    color: blueviolet;
+    color: hsl(270, 100%, 60%);
 }
