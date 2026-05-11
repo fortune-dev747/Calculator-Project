@@ -13,9 +13,8 @@
     margin-bottom: 20px;
     padding: 10px;
     font-size: 24px;
-    text-align: right;
+    text-align: left;
     border: none;
-    border-radius: 5px;
     background-color: hsl(0, 0%, 20%);
     color: #fff;
 }
@@ -34,15 +33,6 @@ button:hover {
     background-color: hsl(0, 0%, 40%);
 }
 
-#previous-operand {
-    font-size: 18px;
-    color: #888;
-}
-
-#current-operand {
-    font-size: 36px;
-    color: #333;
-}
 #clear {
     background-color: #ff6666;
     color: #fff;

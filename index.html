@@ -8,10 +8,7 @@
 </head>
 <body>
     <div class="container">
-        <div id="display">
-            <div id="previous-operand" class="previous-operand"></div>
-            <div id="current-operand" class="current-operand"></div>
-        </div>
+        <input id="display" readonly>
         <button id="clear" class="span-two" onclick="clearDisplay()">AC</button>
         <button id="delete" onclick="deleteLast()">DEL</button>
         <button data-number onclick="appendToDisplay('.')">.</button>
@@ -39,6 +36,6 @@
     </div>
     
 
-    <script defer src="app.js"></script>
+    <script src="app.js"></script>
 </body>
 </html>
